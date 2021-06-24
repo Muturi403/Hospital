@@ -1,6 +1,4 @@
-# PROJECT NAME
-
-St Augustine Medical Centre
+# ST AUGUSTINE MEDICAL CENTRE
 
 ## A friendly hospital located in Taveta county to offer high quality affordable health solutions to its community, 21 June 2021
 
