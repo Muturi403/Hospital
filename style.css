@@ -277,10 +277,10 @@ section {
 	border-radius: 6px;
 }
 
-.facility .facility-content .right img:hover{
-	background-color: blue;
+.facility .facility-content .right .left img:hover {
 	transition: 0.3s;
 	height: 400px;
 	width: 400px;
+	color: cornflowerblue;
 }
 
