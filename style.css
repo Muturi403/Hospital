@@ -232,3 +232,42 @@ section {
 .services .services-content .right li {
 	color: white;
 }
+
+/*facility styling*/
+
+section {
+	padding: 100px 0;
+
+}
+
+.facility {
+	font-family: sans-serif;
+	background-color: white;
+}
+
+.facility .title {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	font-weight: bolder;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	color: black;
+}
+
+.facility .facility-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.facility .facility-content .right {
+	width: 45%;
+}
+
+.facility .facility-content .left {
+	width: 45%;
+}
+
