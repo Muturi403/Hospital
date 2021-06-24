@@ -259,15 +259,28 @@ section {
 .facility .facility-content {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-.facility .facility-content .right {
-	width: 45%;
+.facility .facility-content .right img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 6px;
 }
 
-.facility .facility-content .left {
-	width: 45%;
+.facility .facility-content  .left img{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.facility .facility-content .right img:hover{
+	background-color: blue;
+	transition: 0.3s;
+	height: 400px;
+	width: 400px;
 }
 

@@ -2,13 +2,9 @@
 
 St Augustine Medical Centre
 
-## A friendly hospital located in Taveta county to offer health services to its patients, 21 June 2021
+## A friendly hospital located in Taveta county to offer high quality affordable health solutions to its community, 21 June 2021
 
 ## Description
-
-## Author
-
-Muturi Faith
 
 ## Collaborator
 
