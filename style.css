@@ -233,6 +233,34 @@ section {
 	color: white;
 }
 
+.services .services-content .right .card {
+	width: calc(33% - 20px);
+	background-color: #222;
+	border-radius: 6px;
+	padding: 20px 25px;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.services .services-content .right .card:hover {
+	background: rgba(1, 208, 245, 0.795);
+}
+
+.servicess .services-content .right .card .box {
+	transition: all 0.3s ease;
+}
+
+.services .services-content .right .card:hover .box {
+	transform: scale(1.05);
+}
+
+.services .services-content .right .card .text {
+	font-size: 25px;
+	font-weight: 500;
+	margin: 10px 0 7px 0;
+}
+
 /*facility styling*/
 
 section {
