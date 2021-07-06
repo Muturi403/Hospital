@@ -192,45 +192,12 @@ section {
 
 .services .services-content {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
-.services .services-content .right {
-	width: 45%;
-}
-
-.services .services-content .left {
-	width: 45%;
-}
-
-.services .services-content .left .text {
-	margin-bottom: 10px;
-	font-weight: 600px;
-	font-size: 25px;
-	color: white;
-}
-
-.services .services-content .left .text span {
-	color: red;
-}
-
-.services .services-content .left p {
-	text-align: justify;
-	color: white;
-}
-
-.services .services-content .right p {
-	text-align: justify;
-	color: white;
-}
-
-.services .services-content .right li {
-	color: white;
-}
-
-.services .services-content .right .card {
+.services .services-content .card {
 	width: calc(33% - 20px);
 	background-color: #222;
 	border-radius: 6px;
@@ -240,22 +207,32 @@ section {
 	transition: all 0.3s ease;
 }
 
-.services .services-content .right .card:hover {
+.services .services-content .card:hover {
 	background: rgba(1, 208, 245, 0.795);
 }
 
-.servicess .services-content .right .card .box {
+.services .services-content .card .box {
 	transition: all 0.3s ease;
 }
 
-.services .services-content .right .card:hover .box {
+.services .services-content .card:hover .box {
 	transform: scale(1.05);
 }
 
-.services .services-content .right .card .text {
+.services .services-content .card .text {
 	font-size: 25px;
 	font-weight: 500;
 	margin: 10px 0 7px 0;
+	color: white;
+}
+
+.services .services-content .p-text{
+	color: white;
+	padding-top: 60px;
+	display: flex;
+	text-align: center;
+	margin-left: 250px;
+	font-size: 25px;
 }
 
 /*facility styling*/
@@ -284,7 +261,7 @@ section {
 .facility .facility-content {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
