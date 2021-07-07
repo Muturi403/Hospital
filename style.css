@@ -6,7 +6,7 @@
 /*Home styling*/
 .wrapper{
 	height: 130vh;
-	background-color: #66b3ff;
+	background-color: #14cbd8;
 }
 
 .navbar{
@@ -266,24 +266,17 @@ section {
 }
 
 .facility .facility-content .right img{
-	height: 400px;
-	width: 400px;
+	height: 200px;
+	width: 200px;
 	object-fit: cover;
 	border-radius: 6px;
 }
 
 .facility .facility-content  .left img{
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
 	border-radius: 6px;
-}
-
-.facility .facility-content .right .left img:hover {
-	transition: 0.3s;
-	height: 400px;
-	width: 400px;
-	color: cornflowerblue;
 }
 
 /*contact styling*/
