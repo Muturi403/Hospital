@@ -158,6 +158,7 @@ section {
 	margin-bottom: 10px;
 	font-weight: 600px;
 	font-size: 25px;
+	color: red;
 }
 
 .about .about-content .right .text span {
@@ -231,7 +232,7 @@ section {
 	padding-top: 60px;
 	display: flex;
 	text-align: center;
-	margin-left: 250px;
+	margin-left: 50px;
 	font-size: 25px;
 }
 
