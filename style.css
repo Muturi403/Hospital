@@ -232,7 +232,7 @@ section {
 	padding-top: 60px;
 	display: flex;
 	text-align: center;
-	margin-left: 50px;
+	margin-left: 30px;
 	font-size: 25px;
 }
 
@@ -281,15 +281,30 @@ section {
 }
 
 /*contact styling*/
-body {
-	font-family: Arial, Helvetica, sans-serif;
+section {
+	padding: 100px 0;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-/* Style inputs */
+.contact {
+	font-family: sans-serif;
+	background-color: #14cbd8;
+}
+
+.contact .title {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	font-weight: bolder;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	color: black;
+}
+
 input[type=text],
 select,
 textarea {
@@ -313,14 +328,6 @@ input[type=submit]:hover {
 	background-color: #bd380f;
 }
 
-/* Style the container/contact section */
-.container {
-	border-radius: 5px;
-	background-color: #14cbd8;
-	padding: 10px;
-}
-
-/* Create two columns that float next to eachother */
 .column {
 	float: left;
 	width: 50%;
@@ -328,14 +335,34 @@ input[type=submit]:hover {
 	padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/*footer styling*/
+footer {
+	font-family: sans-serif;
+	padding: 20px 23px;
+	background: black;
+	color: white;
+}
+
+footer span a {
+	color: red;
+}
+
+footer p{
+	margin-left: 600px;
+}
+
+footer span {
+	margin-left: 600px;
+	margin-top: 10px;
+}
+
+/*Responsive Design*/
 @media screen and (max-width: 600px) {
 
 	.column,
