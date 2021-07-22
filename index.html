@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>St Augustine Hospital Website Design.</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
@@ -12,7 +13,7 @@
 <body>
 <!--HOME SECTION-->
     <div class="wrapper">
-	    <nav class="navbar">
+	    <div class="navbar" id="myTopnav">
 		   <img class= "logo" src="./images/Logo(1).png"> 
 		   <ul>
 			   <li><a class="active" href="#">HOME</a></li>
@@ -20,10 +21,11 @@
 			   <li><a href="#services">SERVICES</a></li>
 			   <li><a href="#facility">OUR FACILITY</a></li>
 			   <li><a href="#contact us">CONTACT US</a></li>
+				 <li> <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
 		   </ul>
-	    </nav>
-	    <div class="banner-text">
-			<h1>St. Augustine Medical Centre</h1>
+	    </div>
+	    <div class="banner-text" style="padding-left:16px">
+			<h1 style="font-size:10vw">St. Augustine Medical Centre</h1>
 			<p>Transforming healthcare with love of Christ</p>
 			<div class="banner-btn">
 				<a href="#services"><span></span> Find Out</a>
@@ -38,11 +40,12 @@
             	<h2 class="title">About Us</h2>
             	<div class="about-content">
                 	<div class="column left">
-                    		<img src="./images/Image3.jpg">
+                    		<img src="./images/Image3.jpg" >
                 	</div>
                 	<div class="column right">
                    	 <div class="text">Why Choose Us?</div>
-                   		 <p>St. Augustine Medical centre is a faith based healthcare facility which was set up in 2020 and is designed to offer holistic,
+                   		 <p>St. Augustine Medical centre is a faith based healthcare facility which
+                   		 	was set up in 2020 and is designed to offer holistic,
 			            competitive and affordable medical services and to fill a gap in healthcare delivery in Taita Taveta and its environs.
 			            We realized that, there is part of the population of people who are looking for a place where all their medical needs can be met 
 				    in a unique way and with a Christian touch. Due to that longing need, many have opted to cross over to the neighboring country
@@ -55,12 +58,14 @@
 			       St. Augustine Medical Centre offers general and preventative health care for all ages in Taita Taveta and the surrounding communities. The clinic utilizes trained staff, 
 			       quality equipment and a well-coordinated referral system in order to maximize the care for each patient. </p><br><br>
 
-                	<div class="text">Mission :</div>
-			<p>Our mission is to promote the health and well-being of the local population by providing accessible, affordable and high-quality medical care for people of all ages. St. Augustine Medical Centre 
+                	<div class="text" >Mission :</div>
+			<p>Our mission is to promote the health and well-being of the local population by providing
+				accessible, affordable and high-quality medical care for people of all ages. St. Augustine Medical Centre
 				is committed to providing services that will exceed the expectations of our clients and in so doing, glorify God.</p><br><br>
 
 			<div class="text">Vision :</div>
-			<p>Our vision is to transform healthcare in Taita Taveta and its environs with the love of Christ, by providing quality, affordable, holistic and compassionate care to the community and beyond.</p>
+			<p>Our vision is to transform healthcare in Taita Taveta and its environs with the love of
+				Christ, by providing quality, affordable, holistic and compassionate care to the community and beyond.</p>
 			</div>
             	</div>
              </div>
@@ -212,5 +217,17 @@
               <p>0784 884 500/0742 933 913       |   staugustinemedicalcentre@gmail.com</p>
         <span>Created By <a href="#">FaithMuturi</a> | &copy;  2021 All rights reserved. </span>
 </footer>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} 
+		else {
+			x.className = "navbar";
+		}
+	}
+</script>
 </body>
 </html>
