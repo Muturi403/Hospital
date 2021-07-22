@@ -346,25 +346,30 @@ input[type=submit]:hover {
 }
 
 /*footer styling*/
-footer {
+.footer {
 	font-family: sans-serif;
 	padding: 20px 23px;
 	background: black;
 	color: white;
+	/* position: fixed;  */
+	left: 0;
+	bottom: o;
+	width: 100%;
+	text-align: center;
 }
 
-footer span a {
+span a {
 	color: red;
 }
 
-footer p{
+/* .footer, p{
 	margin-left: 600px;
-}
+} */
 
-footer span {
+/* .footer, span {
 	margin-left: 600px;
 	margin-top: 10px;
-}
+} */
 
 /*Responsive Design*/
 @media screen and (max-width: 600px) {
