@@ -351,7 +351,6 @@ input[type=submit]:hover {
 	padding: 20px 23px;
 	background: black;
 	color: white;
-	/* position: fixed;  */
 	left: 0;
 	bottom: o;
 	width: 100%;
@@ -362,17 +361,12 @@ span a {
 	color: red;
 }
 
-/* .footer, p{
-	margin-left: 600px;
-} */
-
-/* .footer, span {
-	margin-left: 600px;
-	margin-top: 10px;
-} */
-
 /*Responsive Design*/
 @media screen and (max-width: 600px) {
+
+	.max-width{
+		padding: 0 50px;
+	}
 
 	.column,input[type=submit] {
 		width: 100%;
@@ -406,4 +400,55 @@ span a {
 		display: block;
 		text-align: left;
 	}
+
+	.services .services-content .card {
+		width: calc(33% - 20px);
+		background-color: #222;
+		border-radius: 6px;
+		padding: 10px 10px;
+		cursor: pointer;
+		text-align: center;
+		transition: all 0.3s ease;
+	}
+
+	.services .services-content .p-text {
+		color: white;
+		padding-top: 60px;
+		display: flex;
+		text-align: center;
+		margin-left: 30px;
+		font-size: 15px;
+	}
+
+	.services .services-content .card .text {
+		font-size: 10px;
+		font-weight: 500;
+		margin: 10px 0 7px 0;
+		color: white;
+	}
+
+	.about .about-content .left img {
+		height: 250px;
+		width: 250px;
+		object-fit: cover;
+		border-radius: 6px;
+	}
+
+	.about .about-content .right .text {
+		margin-bottom: 10px;
+		font-weight: 500px;
+		font-size: 20px;
+		color: red;
+	}
+
+	.about .about-content .right {
+		width: 100%;
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+
+	.about .about-content .right p {
+		text-align: center;
+	}
+
 }
