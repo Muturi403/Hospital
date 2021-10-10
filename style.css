@@ -374,33 +374,7 @@ span a {
 	}
 }
 
-@media screen and (max-width: 600px){
-	.navbar a:not{
-		display: none;
-	}
-	.navbar a .icon {
-		float: right;
-		display: block;
-	}
-}
-
 @media screen and (max-width: 600px) {
-	.navbar.responsive {
-		position: relative;
-	}
-
-	.navbar.responsive .icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.navbar.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-
 	.services .services-content .card {
 		width: calc(33% - 20px);
 		background-color: #222;
