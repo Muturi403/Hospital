@@ -2,6 +2,9 @@
 
 ## A friendly hospital located in Taveta county to offer high quality affordable health solutions to its community, 21 June 2021
 
+## Author
+Faith Muturi
+
 ## Collaborator
 
 Agnes Norman
